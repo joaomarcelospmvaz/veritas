@@ -1,28 +1,7 @@
-import { Carrossel } from "@/components/Carrossel";
+import Image from "next/image";
+import LaboratorioImg from "@/public/assets/laboratorio.jpg"
 
 export default function Laboratorio() {
-  const mock = [
-    {
-      title: 'imagem veritas',
-      url: 'http://www.veritass.com.br/img/banner-matriculas-2024.jpg',
-    },
-    {
-      title: 'fachada veritas',
-      url: 'http://www.veritass.com.br/img/colegio.png',
-    },
-    {
-      title: 'imagem veritas',
-      url: 'http://www.veritass.com.br/img/banner-matriculas-2024.jpg',
-    },
-    {
-      title: 'fachada veritas',
-      url: 'http://www.veritass.com.br/img/colegio.png',
-    },
-    {
-      title: 'imagem veritas',
-      url: 'http://www.veritass.com.br/img/banner-matriculas-2024.jpg',
-    }
-  ]
   return (
     <div className="min-h-[calc(100dvh-112px)] flex flex-col items-center">
       <div className="w-full py-8 px-2 bg-[#4F8E34] flex flex-col gap-8 items-center justify-center">
@@ -31,9 +10,10 @@ export default function Laboratorio() {
         </p>
         <p className="text-3xl text-white font-bold text-center">Atividade de acordo com o calendário de cada turma</p>
       </div>
-      <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center mt-10 font-bold px-2">Futsal é o futebol adaptado para prática em uma quadra esportiva por times de 5 jogadores.</p>
-      <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center my-4 font-bold px-2">Movimentar o corpo ao praticar um esporte eleva os níveis de felicidade e desenvolvimento.</p>
-      <Carrossel mock={mock} />
+      <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center mt-10 font-bold px-2">O benefício em se ter um laboratório na escola é aplicar a teoria estudada, fazendo com que os
+        alunos testem conceitos e desenvolvam experiências de forma prática com os materiais certos.</p>
+      <Image src={LaboratorioImg} alt="imagem futsal" className="w-full max-w-[1000px] rounded-xl max-h-96 object-cover my-8" />
+      <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center my-4 font-bold px-2">VENHA FAZER PARTE DO COLÉGIO VERITAS!</p>
     </div>
   )
 }

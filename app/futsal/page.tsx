@@ -1,30 +1,8 @@
-import { Carrossel } from "@/components/Carrossel";
 import Image from "next/image";
 import Wpp from "@/public/assets/wpp.svg"
+import FutsalImg from "@/public/assets/futsal.jpg"
 
 export default function Futsal() {
-  const mock = [
-    {
-      title: 'imagem veritas',
-      url: 'http://www.veritass.com.br/img/banner-matriculas-2024.jpg',
-    },
-    {
-      title: 'fachada veritas',
-      url: 'http://www.veritass.com.br/img/colegio.png',
-    },
-    {
-      title: 'imagem veritas',
-      url: 'http://www.veritass.com.br/img/banner-matriculas-2024.jpg',
-    },
-    {
-      title: 'fachada veritas',
-      url: 'http://www.veritass.com.br/img/colegio.png',
-    },
-    {
-      title: 'imagem veritas',
-      url: 'http://www.veritass.com.br/img/banner-matriculas-2024.jpg',
-    }
-  ]
   return (
     <div className="min-h-[calc(100dvh-112px)] flex flex-col items-center">
       <div className="w-full py-8 px-2 bg-[#4F8E34] flex flex-col gap-8 items-center justify-center">
@@ -36,13 +14,13 @@ export default function Futsal() {
       <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center mt-10 font-bold px-2">Futsal é o futebol adaptado para prática em uma quadra esportiva por times de 5 jogadores.</p>
       <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center mt-4 font-bold px-2">Movimentar o corpo ao praticar um esporte eleva os níveis de felicidade e desenvolvimento.</p>
       <p className="text-3xl text-[#254a15] font-bold text-center mt-16">Categorias</p>
-      <div className="my-12 flex items-center justify-center w-full max-w-[1320px] flex-wrap gap-4 px-2">
-        <div className="rounded-2xl h-10 w-60 bg-[#254a15] flex justify-center items-center"></div>
-        <div className="rounded-2xl h-10 w-60 bg-[#476424] flex justify-center items-center"></div>
-        <div className="rounded-2xl h-10 w-60 bg-[#4f8e34] flex justify-center items-center"></div>
-        <div className="rounded-2xl h-10 w-60 bg-[#68b311] flex justify-center items-center"></div>
+      <div className="my-12 flex items-center justify-center w-full max-w-[1320px] flex-wrap gap-4 px-2 text-white font-bold text-lg">
+        <div className="rounded-2xl h-10 w-60 bg-[#254a15] flex justify-center items-center">Sub 7</div>
+        <div className="rounded-2xl h-10 w-60 bg-[#476424] flex justify-center items-center">Sub 9 / Sub 11</div>
+        <div className="rounded-2xl h-10 w-60 bg-[#4f8e34] flex justify-center items-center">Sub 13 / Sub 15</div>
+        <div className="rounded-2xl h-10 w-60 bg-[#68b311] flex justify-center items-center">Treinos para Goleiro</div>
       </div>
-      <Carrossel mock={mock} />
+      <Image src={FutsalImg} alt="imagem futsal" className="w-full max-w-[1000px] rounded-xl max-h-96 object-cover" />
       <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center mt-8 font-bold px-2">AS INCRIÇÕES SÃO FEITAS DIRETAMENTE COM A EQUIPE PROATIVO</p>
       <a
         className="w-full max-w-[980px] text-2xl text-[#254a15] text-center my-8 font-bold px-2cursor-pointer flex justify-center items-center"
@@ -50,7 +28,7 @@ export default function Futsal() {
         target="_blank"
       >
         <Image src={Wpp} alt="logo whatsApp" width={80} height={80} className="h-10 w-10 mr-2" title="Entre em contato com nosso WhatsApp" />
-        <span className="underline">99999-9999</span>
+        (21) 99747-2594
       </a>
     </div>
   )

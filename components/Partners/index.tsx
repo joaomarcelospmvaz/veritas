@@ -57,10 +57,6 @@ export const Partners = () => {
       altText: 'imagem Editora',
       src: Editora
     },
-    {
-      altText: 'imagem Militar',
-      src: Militar
-    }
   ]
 
   return (

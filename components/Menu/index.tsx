@@ -3,8 +3,6 @@
 import Image from "next/image"
 import menuBurguer from "@/public/assets/menuBurguer.svg"
 import { useEffect, useState } from "react"
-import LogoVeritas from "@/public/assets/logo.svg"
-import Link from "next/link"
 import Wpp from "@/public/assets/wpp.svg"
 import Instagram from "@/public/assets/instagram.svg"
 import X from "@/public/assets/x.svg"
@@ -37,16 +35,26 @@ export const Menu = () => {
         <div className="cursor-pointer ml-2 mt-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           <Image src={X} alt="logo instagram" width={80} height={80} className="h-8 w-8" title="Entre em contato com nosso WhatsApp" />
         </div>
-        <Link href="/" className="px-4 mt-5 mx-auto w-full flex items-center justify-center" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          <Image src={LogoVeritas} alt="Logo Colégio Veritas" className="h-8 md:h-10 w-auto" />
-        </Link>
         <div className="w-full px-4 flex flex-col justify-start gap-3 mt-8">
-          <a className="text-lg text-[#204111]" href="/institucional">Institucional</a>
+          {/* <a className="text-lg text-[#204111]" href="/quem-somos">Quem somos</a> */}
+          <a className="text-lg text-[#204111]" href="/calendario">Calendário</a>
+          <span className="w-full h-[1px] bg-[#204111]"></span>
+          <a className="text-lg text-[#204111]" href="/horarios">Horário</a>
+          <span className="w-full h-[1px] bg-[#204111]"></span>
+          <a className="text-lg text-[#204111]" href="/lista-de-material">Lista de Material</a>
+          <span className="w-full h-[1px] bg-[#204111]"></span>
+          <a className="text-lg text-[#204111]" href="/turmas">Turmas</a>
+          <span className="w-full h-[1px] bg-[#204111]"></span>
           <a className="text-lg text-[#204111]" href="/ballet">Ballet</a>
+          <span className="w-full h-[1px] bg-[#204111]"></span>
           <a className="text-lg text-[#204111]" href="/curriculo-bilingue">Curriculo Bilingue</a>
+          <span className="w-full h-[1px] bg-[#204111]"></span>
           <a className="text-lg text-[#204111]" href="/futsal">Futsal</a>
+          <span className="w-full h-[1px] bg-[#204111]"></span>
           <a className="text-lg text-[#204111]" href="/laboratorio">Laboratório</a>
+          <span className="w-full h-[1px] bg-[#204111]"></span>
           <a className="text-lg text-[#204111]" href="/natacao">Natação</a>
+          <span className="w-full h-[1px] bg-[#204111]"></span>
           <a className="text-lg text-[#204111]" href="/projeto-teatral">Projeto Teatral</a>
         </div>
         <div className="flex items-center justify-center mt-8 gap-4">

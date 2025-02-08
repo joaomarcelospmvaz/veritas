@@ -1,28 +1,7 @@
-import { Carrossel } from "@/components/Carrossel";
+import Image from "next/image";
+import TeatroImg from "@/public/assets/teatro.jpg"
 
 export default function ProjetoTeatral() {
-  const mock = [
-    {
-      title: 'imagem veritas',
-      url: 'http://www.veritass.com.br/img/banner-matriculas-2024.jpg',
-    },
-    {
-      title: 'fachada veritas',
-      url: 'http://www.veritass.com.br/img/colegio.png',
-    },
-    {
-      title: 'imagem veritas',
-      url: 'http://www.veritass.com.br/img/banner-matriculas-2024.jpg',
-    },
-    {
-      title: 'fachada veritas',
-      url: 'http://www.veritass.com.br/img/colegio.png',
-    },
-    {
-      title: 'imagem veritas',
-      url: 'http://www.veritass.com.br/img/banner-matriculas-2024.jpg',
-    }
-  ]
   return (
     <div className="min-h-[calc(100dvh-112px)] flex flex-col items-center">
       <div className="w-full py-8 px-2 bg-[#4F8E34] flex flex-col gap-8 items-center justify-center">
@@ -31,9 +10,11 @@ export default function ProjetoTeatral() {
         </p>
         <p className="text-3xl text-white font-bold text-center">Projeto educacional do 8° ano ao Ensino Médio</p>
       </div>
-      <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center mt-10 font-bold px-2">Futsal é o futebol adaptado para prática em uma quadra esportiva por times de 5 jogadores.</p>
-      <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center my-4 font-bold px-2">Movimentar o corpo ao praticar um esporte eleva os níveis de felicidade e desenvolvimento.</p>
-      <Carrossel mock={mock} />
+      <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center mt-10 font-bold px-2">O projeto teatral é desenvolvido com o foco em produzir uma peça a ser apresentada no final do
+        ano. Os alunos trabalham diversos desenvolvimentos ao longo do projeto são eles: Comunicação,
+        organização, foco, comprometimento e muitos outros.</p>
+      <Image src={TeatroImg} alt="imagem futsal" className="w-full max-w-[1000px] rounded-xl max-h-96 object-cover my-8" />
+      <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center my-4 font-bold px-2">VENHA FAZER PARTE DO COLÉGIO VERITAS!</p>
     </div>
   )
 }
