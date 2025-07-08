@@ -6,10 +6,6 @@ import { Partners } from "@/components/Partners";
 export default function Home() {
   const mock = [
     {
-      title: 'imagem veritas',
-      url: 'https://i.ibb.co/hxCbpVvD/capa-volta-as-aulas.jpg',
-    },
-    {
       title: 'aprovado 1',
       url: 'https://i.ibb.co/C56hb8pq/capa-site-1.jpg',
     },
