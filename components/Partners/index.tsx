@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Soccer from "@/public/assets/soccer.svg"
 import Teatro from "@/public/assets/teatro.svg"
 import Ballet from "@/public/assets/ballet.svg"
 import Ingles from "@/public/assets/ingles.svg"
@@ -9,15 +8,9 @@ import Raiz from "@/public/assets/raiz.svg"
 import Raizes from "@/public/assets/raizes.svg"
 import Bilingue from "@/public/assets/bilingue.svg"
 import Editora from "@/public/assets/editora.svg"
-import Militar from "@/public/assets/militar.svg"
 
 export const Partners = () => {
   const activitiesList = [
-    {
-      altText: 'imagem Futebol',
-      src: Soccer,
-      url: '/futsal'
-    },
     {
       altText: 'imagem Teatro',
       src: Teatro,

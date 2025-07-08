@@ -49,8 +49,6 @@ export const Menu = () => {
           <span className="w-full h-[1px] bg-[#204111]"></span>
           <a className="text-lg text-[#204111]" href="/curriculo-bilingue">Curriculo Bilingue</a>
           <span className="w-full h-[1px] bg-[#204111]"></span>
-          <a className="text-lg text-[#204111]" href="/futsal">Futsal</a>
-          <span className="w-full h-[1px] bg-[#204111]"></span>
           <a className="text-lg text-[#204111]" href="/laboratorio">Laboratório</a>
           <span className="w-full h-[1px] bg-[#204111]"></span>
           <a className="text-lg text-[#204111]" href="/natacao">Natação</a>
