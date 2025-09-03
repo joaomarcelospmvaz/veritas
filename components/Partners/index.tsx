@@ -35,16 +35,8 @@ export const Partners = () => {
 
   const partnersList = [
     {
-      altText: 'imagem Raiz',
-      src: Raiz
-    },
-    {
       altText: 'imagem Bilingue',
       src: Bilingue
-    },
-    {
-      altText: 'imagem Raizes',
-      src: Raizes
     },
     {
       altText: 'imagem Editora',
@@ -61,8 +53,8 @@ export const Partners = () => {
           </a>
         ))}
       </div>
-      <div className="text-4xl font-semibold text-[#204111] text-center -mb-2 md:mb-0">Conheça os nossos parceiros</div>
-      <div className="flex items-center justify-evenly w-full px-4 gap-4 flex-wrap">
+      <div className="text-4xl font-semibold text-[#204111] text-center -mb-2 md:mb-0">Conheça as nossas editoras</div>
+      <div className="flex items-center justify-center w-full px-4 gap-16 flex-wrap">
         {partnersList.map((item, index) => (
           <div key={index} className="w-40 h-20 rounded-[40px] flex items-center justify-center">
             <Image src={item.src} width={160} height={160} alt={item.altText} />

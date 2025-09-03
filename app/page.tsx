@@ -6,12 +6,16 @@ import { Partners } from "@/components/Partners";
 export default function Home() {
   const mock = [
     {
-      title: 'aprovado 1',
-      url: 'https://i.ibb.co/C56hb8pq/capa-site-1.jpg',
+      title: 'matriculas abertas',
+      url: 'https://i.ibb.co/SXBtXKy0/banner-site-veritas-2.jpg',
     },
     {
-      title: 'aprovado 2',
-      url: 'https://i.ibb.co/Kc8DDFLD/capa-site-2.jpg',
+      title: 'editora do brasil',
+      url: 'https://i.ibb.co/j9kLhc64/banner-site-veritas-1.jpg',
+    },
+    {
+      title: 'transformação',
+      url: 'https://i.ibb.co/wZM4nd18/banner-site-veritas.jpg',
     },
   ]
   return (
@@ -22,4 +26,5 @@ export default function Home() {
       <Map />
     </main>
   );
+
 }

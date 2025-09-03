@@ -10,7 +10,7 @@ export default function Ballet() {
         <p className="uppercase text-[#204111] text-5xl font-black flex items-center justify-center gap-2 flex-wrap">
           <span className="text-white ml-1">CURRÍCULO</span> <span className="text-white text-4xl bg-[#204111] -rotate-3 mt-2 px-1 xs:-mt-2 mx-5 xs:mx-0">BILÍNGUE</span>
         </p>
-        <p className="text-3xl text-white font-bold text-center">Atividade curricular até o 4° ano do Ensino Fundamental I</p>
+        <p className="text-3xl text-white font-bold text-center">Atividade curricular até o 5° ano do Ensino Fundamental I</p>
       </div>
       <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center mt-8 font-bold px-2">PARCEIRO EDUCACIONAL</p>
       <div className="w-40 h-20 rounded-[40px] flex items-center justify-center">
