@@ -5,7 +5,7 @@ import { Partners } from "@/components/Partners";
 
 import BannerImg1 from "@/public/assets/banner-site-veritas.jpg"
 import BannerImg2 from "@/public/assets/banner-site-veritas-1.jpg"
-import BannerImg3 from "@/public/assets/banner-site-veritas-2.jpg"
+import BannerImg3 from "@/public/assets/banner-10%-desconto.jpg"
 
 
 export default function Home() {
