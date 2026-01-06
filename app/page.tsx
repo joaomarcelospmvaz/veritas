@@ -10,10 +10,10 @@ import BannerImg3 from "@/public/assets/banner-5-desconto.jpg"
 
 export default function Home() {
   const mock = [
-    {
-      title: 'matriculas abertas',
-      url: BannerImg3.src,
-    },
+    // {
+    //   title: 'matriculas abertas',
+    //   url: BannerImg3.src,
+    // },
     {
       title: 'editora do brasil',
       url: BannerImg2.src,

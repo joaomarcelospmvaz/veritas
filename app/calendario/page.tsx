@@ -3,7 +3,7 @@ export default function Calendario() {
     <div className="min-h-[calc(100dvh-112px)] flex flex-col items-center">
       <div className="w-full py-8 px-2 bg-[#4F8E34] flex flex-col gap-8 items-center justify-center">
         <p className="uppercase text-[#204111] text-5xl font-black flex items-center justify-center gap-2 flex-wrap">
-          <span className="text-white ml-1">Calendário</span> <span className="text-white text-4xl bg-[#204111] -rotate-3 mt-2 px-1 xs:-mt-2 mx-5 xs:mx-0">2025</span>
+          <span className="text-white ml-1">Calendário</span> <span className="text-white text-4xl bg-[#204111] -rotate-3 mt-2 px-1 xs:-mt-2 mx-5 xs:mx-0">2026</span>
         </p>
       </div>
       <p className="text-3xl text-[#254a15] font-bold text-center mt-16">Clique nos botões abaixo para baixar</p>
