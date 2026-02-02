@@ -52,8 +52,6 @@ export const Menu = () => {
           <a className="text-lg text-[#204111]" href="/laboratorio">Laboratório</a>
           <span className="w-full h-[1px] bg-[#204111]"></span>
           <a className="text-lg text-[#204111]" href="/natacao">Natação</a>
-          <span className="w-full h-[1px] bg-[#204111]"></span>
-          <a className="text-lg text-[#204111]" href="/projeto-teatral">Projeto Teatral</a>
         </div>
         <div className="flex items-center justify-center mt-8 gap-4">
           <a

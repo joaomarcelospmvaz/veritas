@@ -10,6 +10,7 @@ export default function Natacao() {
         </p>
         <p className="text-3xl text-white font-bold text-center">Atividade curricular até o 5° ano </p>
       </div>
+      <p className="text-2xl text-[#fff] text-center mt-10 font-bold px-2 bg-[#FE7A02] p-2 rounded-lg">As aulas terão inicio em Março</p>
       <p className="w-full max-w-[980px] text-2xl text-[#254a15] text-center mt-10 font-bold px-2">As aulas de natação ocorrem durante as atividades de Ed.Física e vão de acordo com o
         cronograma de cada turma. A atividade ajuda no desenvolvimento motor das crianças.
       </p>

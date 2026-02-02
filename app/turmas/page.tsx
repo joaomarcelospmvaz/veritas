@@ -49,7 +49,6 @@ export default function Turmas() {
         <div className="flex flex-col justify-center items-center gap-4"><div className="rounded-2xl h-10 max-w-60 w-full min-w-40 bg-[#254a15] flex justify-center items-center">Ensino Médio</div></div>
       </div>
       <div className="flex justify-center items-center w-full gap-8 text-[#254a15] text-xl font-bold flex-wrap mb-8">
-        <div className="flex justify-center items-center gap-2"><Image src={orangeCheck} alt="chek laranja" width={24} height={24} />Projeto Teatral</div>
         <div className="flex justify-center items-center gap-2"><Image src={orangeCheck} alt="chek laranja" width={24} height={24} />Socioemocional</div>
       </div>
     </div>
