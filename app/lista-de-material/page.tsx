@@ -33,9 +33,9 @@ export default function ListaDeMaterial() {
         <a href="/files/material-5ano.docx" target="_blank" className="rounded-2xl h-10 px-4 bg-[#4f8e34] flex justify-center items-center w-full max-w-[340px]">
           5º ano
         </a>
-        {/* <a href="/files/lista-fundamental2-medio.pdf" target="_blank" className="rounded-2xl h-fit min-h-10 px-4 bg-[#4f8e34] flex justify-center items-center w-full max-w-[340px] text-center ">
+        <a href="/files/material-fundamental-medio.pdf" target="_blank" className="rounded-2xl h-fit min-h-10 px-4 bg-[#4f8e34] flex justify-center items-center w-full max-w-[340px] text-center ">
           Ensino Fundamental II e Ensino Médio
-        </a> */}
+        </a>
       </div>
     </div>
   )
