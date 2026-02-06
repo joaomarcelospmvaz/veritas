@@ -45,14 +45,13 @@ export default function Horarios() {
           Ensino Fundamental II e Ensino Médio
         </div>
         <p className="text-xl text-[#254a15] -mt-2 text-center font-bold"> Clique abaixo para visualizar</p>
-        <a href="/files/horarios-em-breve.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#254a15] flex justify-center items-center w-full max-w-[340px]">6° ano</a>
-        <a href="/files/horarios-em-breve.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#476424] flex justify-center items-center w-full max-w-[340px]">7° ano</a>
-        <a href="/files/horarios-em-breve.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#4f8e34] flex justify-center items-center w-full max-w-[340px]">8° ano</a>
-        <a href="/files/horarios-em-breve.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#68b311] flex justify-center items-center w-full max-w-[340px]">9° ano</a>
-        <a href="/files/horarios-em-breve.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#254a15] flex justify-center items-center w-full max-w-[340px]">1° ano EM</a>
-        <a href="/files/horarios-em-breve.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#476424] flex justify-center items-center w-full max-w-[340px]">2° ano EM</a>
-        <a href="/files/horarios-em-breve.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#4f8e34] flex justify-center items-center w-full max-w-[340px]">3° ano EM</a>
-
+        <a href="/files/horarios-6ano.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#254a15] flex justify-center items-center w-full max-w-[340px]">6° ano</a>
+        <a href="/files/horarios-7ano.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#476424] flex justify-center items-center w-full max-w-[340px]">7° ano</a>
+        <a href="/files/horarios-8ano.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#4f8e34] flex justify-center items-center w-full max-w-[340px]">8° ano</a>
+        <a href="/files/horarios-9ano.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#68b311] flex justify-center items-center w-full max-w-[340px]">9° ano</a>
+        <a href="/files/horarios-1em.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#254a15] flex justify-center items-center w-full max-w-[340px]">1° ano EM</a>
+        <a href="/files/horarios-2em.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#476424] flex justify-center items-center w-full max-w-[340px]">2° ano EM</a>
+        <a href="/files/horarios-3em.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#4f8e34] flex justify-center items-center w-full max-w-[340px]">3° ano EM</a>
       </div>
     </div >
   )
