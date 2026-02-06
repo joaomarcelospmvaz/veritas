@@ -32,7 +32,7 @@ export default function Horarios() {
             Manhã:
           </p>
           <p className="w-full max-w-[340px] text-lg text-[#254a15] text-center font-bold px-2">
-            1° ano ao 5° ano: <span className="font-normal">7h às 12h</span>
+            1° ano ao 5° ano: <span className="font-normal">8h às 12h</span>
           </p>
           <p className="w-full max-w-[340px] text-lg text-[#254a15] text-center font-bold px-2">
             Tarde:
