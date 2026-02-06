@@ -12,7 +12,7 @@ export default function Horarios() {
         </div>
         <div className="w-full max-w-[340px]">
           <p className="w-full max-w-[340px] text-lg text-[#254a15] text-center font-bold px-2">
-            Manhã: <span className="font-normal">7h às 12h</span>
+            Manhã: <span className="font-normal">8h às 12h</span>
           </p>
           <p className="w-full max-w-[340px] text-lg text-[#254a15] text-center font-bold px-2">
             1ª Semana de Adaptação: <span className="font-normal">8h às 10h</span>
