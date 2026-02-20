@@ -5,14 +5,20 @@ import { Partners } from "@/components/Partners";
 
 import BannerImg1 from "@/public/assets/banner-site-veritas.jpg"
 import BannerImg2 from "@/public/assets/banner-site-veritas-1.jpg"
-import BannerImg3 from "@/public/assets/banner-volta-as-aulas.jpg"
+import BannerImg3 from "@/public/assets/banner-aprovacao1.jpg"
+import BannerImg4 from "@/public/assets/banner-aprovacao2.jpg"
+
 
 
 export default function Home() {
   const mock = [
     {
-      title: 'matriculas abertas',
+      title: 'banner aprovação 1',
       url: BannerImg3.src,
+    },
+    {
+      title: 'banner aprovação 2',
+      url: BannerImg4.src,
     },
     {
       title: 'editora do brasil',

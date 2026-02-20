@@ -14,15 +14,14 @@ export default function Horarios() {
           <p className="w-full max-w-[340px] text-lg text-[#254a15] text-center font-bold px-2">
             Manhã: <span className="font-normal">8h às 12h</span>
           </p>
-          <p className="w-full max-w-[340px] text-lg text-[#254a15] text-center font-bold px-2">
-            1ª Semana de Adaptação: <span className="font-normal">8h às 10h</span>
-          </p>
+          <a href="/files/horarios-pre1Manha.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#254a15] flex justify-center items-center w-full max-w-[340px] my-4">Pré I MA</a>
+          <a href="/files/horarios-pre2Manha.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#476424] flex justify-center items-center w-full max-w-[340px] my-4">Pré II MA</a>
           <p className="w-full max-w-[340px] text-lg text-[#254a15] text-center font-bold px-2">
             Tarde: <span className="font-normal">13h às 17h</span>
           </p>
-          <p className="w-full max-w-[340px] text-lg text-[#254a15] text-center font-bold px-2">
-            1ª Semana de Adaptação: <span className="font-normal">13h às 15h</span>
-          </p>
+          <a href="/files/horarios-maternal2Tarde.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#4f8e34] flex justify-center items-center w-full max-w-[340px] my-4">Maternal II TA</a>
+          <a href="/files/horarios-pre1Tarde.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#254a15] flex justify-center items-center w-full max-w-[340px] my-4">Pré I TA</a>
+          <a href="/files/horarios-pre2Tarde.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#476424] flex justify-center items-center w-full max-w-[340px] my-4">Pré II TA</a>
         </div>
         <div className="rounded-2xl h-10 px-4 bg-[#4f8e34] flex justify-center items-center w-full max-w-[340px]">
           Ensino Fundamental I
@@ -34,12 +33,22 @@ export default function Horarios() {
           <p className="w-full max-w-[340px] text-lg text-[#254a15] text-center font-bold px-2">
             1° ano ao 5° ano: <span className="font-normal">8h às 12h</span>
           </p>
+          <a href="/files/horarios-1anoManha.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#254a15] flex justify-center items-center w-full max-w-[340px] my-4">1° ano MA</a>
+          <a href="/files/horarios-2anoManha.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#476424] flex justify-center items-center w-full max-w-[340px] my-4">2° ano MA</a>
+          <a href="/files/horarios-3anoManha.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#4f8e34] flex justify-center items-center w-full max-w-[340px] my-4">3° ano MA</a>
+          <a href="/files/horarios-4anoManha.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#68b311] flex justify-center items-center w-full max-w-[340px] my-4">4° ano MA</a>
+          <a href="/files/horarios-5anoManha.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#254a15] flex justify-center items-center w-full max-w-[340px] my-4">5° ano MA</a>
           <p className="w-full max-w-[340px] text-lg text-[#254a15] text-center font-bold px-2">
             Tarde:
           </p>
           <p className="w-full max-w-[340px] text-lg text-[#254a15] text-center font-bold px-2">
             1° ano ao 4° ano: <span className="font-normal">13h às 17h</span>
           </p>
+          <a href="/files/horarios-1anoTarde.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#254a15] flex justify-center items-center w-full max-w-[340px] my-4">1° ano TA</a>
+          <a href="/files/horarios-2anoTarde.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#476424] flex justify-center items-center w-full max-w-[340px] my-4">2° ano TA</a>
+          <a href="/files/horarios-3anoTarde.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#4f8e34] flex justify-center items-center w-full max-w-[340px] my-4">3° ano TA</a>
+          <a href="/files/horarios-4anoTarde.pdf" target="_blank" className="rounded-2xl h-10 px-4 bg-[#68b311] flex justify-center items-center w-full max-w-[340px] my-4">4° ano TA </a>
+
         </div>
         <div className="rounded-2xl h-10 px-4 bg-[#4f8e34] flex justify-center items-center w-full max-w-[340px]">
           Ensino Fundamental II e Ensino Médio
